@@ -1,0 +1,158 @@
+body {
+    font-size: 62.5%;
+    background-color: #CFD2CF;
+    margin: 0;
+
+}
+
+#header {
+    background-color: #FA9494;
+    position: sticky;
+
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 5rem;
+    align-items: center;
+}
+
+#header header {
+    position: absolute;
+    left: 0;
+    font-size: 2.5rem;
+    padding-left: 10px;
+    color: #F5EDDC;
+
+
+}
+
+#nav-bar {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #F5EDDC;
+}
+
+form {
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+input {
+    margin: 0.5rem 0.2rem;
+}
+
+#email {
+    padding: 0.3rem;
+    width: 20%;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+#submit {
+    color: #EB1D36;
+    background-color: #F5EDDC;
+    width: 10%;
+    padding: 0.1rem;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    border: 1px solid #EB1D36;
+    border-radius: 3px;
+}
+
+#features {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5rem 1rem;
+
+
+
+}
+
+#feature div {
+    border-bottom: 1px solid white;
+}
+
+#feature header {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0rem;
+}
+
+#feature p {
+    font-size: 1.2rem;
+    color: rgb(41, 41, 41);
+}
+
+#how_it_works {
+    display: flex;
+    justify-content: center;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#panel {
+    width: 800px;
+    height: 200px;
+    margin: 3rem 1rem;
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+#panel div {
+    max-width: 30%;
+    height: 6rem;
+    color: black;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 5px;
+
+
+}
+
+.description {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.price {
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #EB1D36;
+    border-radius: 5px;
+    margin-top: 0;
+    width: 50%;
+
+}
+
+.price_btn {
+    margin-bottom: 0;
+}
