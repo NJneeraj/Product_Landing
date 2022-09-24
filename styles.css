@@ -19,11 +19,19 @@ body {
 
 #header header {
     position: absolute;
-    left: 0;
+    left: 4px;
     font-size: 2.5rem;
     padding-left: 10px;
     color: #F5EDDC;
+    margin-left: 45px;
 
+
+}
+
+#header-img {
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
 
 }
 
@@ -35,7 +43,7 @@ body {
     font-size: 1.5rem;
 }
 
-#nav-bar a {
+.nav-link {
     text-decoration: none;
     color: #F5EDDC;
 }
@@ -88,6 +96,7 @@ input {
     font-size: 1.4rem;
     font-weight: 600;
     color: black;
+    padding-top: 1rem;
     margin-bottom: 0rem;
 }
 
@@ -127,13 +136,15 @@ input {
     height: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid #003865;
 }
 
 .title {
     text-align: center;
     font-size: 1.4rem;
     margin: 5px;
+    padding: 0.5rem;
+    color: #003865;
 
 
 }
@@ -141,18 +152,34 @@ input {
 .description {
     text-align: center;
     font-size: 1rem;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    padding-top: 0;
+
 }
 
 .price {
     text-align: center;
     font-size: 1.2rem;
-    background-color: #EB1D36;
+    background-color: #5CB8E4;
     border-radius: 5px;
-    margin-top: 0;
-    width: 50%;
+    margin: 0.2rem 1rem;
+    padding: 1rem;
+
 
 }
 
-.price_btn {
-    margin-bottom: 0;
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F5EDDC;
+    width: 100%;
+    color: black;
+    font-size: 1.2rem;
+}
+
+@media(max-width:800px) {
+    .nav-link {
+        display: none;
+    }
 }
