@@ -1,208 +1,210 @@
 body {
-    font-size: 62.5%;
-    background-color: #CFD2CF;
-    margin: 0;
-
+  font-size: 62.5%;
+  background-color: #cfd2cf;
+  margin: 0;
 }
 
 #header {
-    background-color: #FA9494;
-    position: sticky;
-
-    top: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    height: 5rem;
-    align-items: center;
-}
-
-#header header {
-    position: absolute;
-    left: 4px;
-    font-size: 2.5rem;
-    padding-left: 10px;
-    color: #F5EDDC;
-    margin-left: 45px;
-
-
-}
-
-#header-img {
-    position: absolute;
-    left: 0;
-    padding-left: 10px;
-
+  background-color: #fa9494;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 5rem;
+  align-items: center;
 }
 
 #nav-bar {
-    display: flex;
-    width: 30%;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 1.5rem;
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 .nav-link {
-    text-decoration: none;
-    color: #F5EDDC;
-    transition: all 0.1s ease-in-out;
+  text-decoration: none;
+  color: #f5eddc;
+  transition: all 0.1s ease-in-out;
 }
 
 .nav-link:hover {
-    transform: scale(1.05);
-    color: wheat;
+  transform: scale(1.05);
+  color: wheat;
 }
 
 form {
-    margin: 1rem 1rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+  margin: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 input {
-    margin: 0.5rem 0.2rem;
+  margin: 0.5rem 0.2rem;
 }
 
 #email {
-    padding: 0.3rem;
-    width: 20%;
-    box-sizing: border-box;
-    border: 1px solid white;
+  padding: 0.3rem;
+  width: 20%;
+  box-sizing: border-box;
+  border: 1px solid white;
 }
 
 #email:hover {
-    border-color: black;
+  border-color: black;
 }
 
 #submit {
-    color: #EB1D36;
-    background-color: #F5EDDC;
-    width: 10%;
-    padding: 0.1rem;
-    font-size: 1.3rem;
-    box-sizing: border-box;
-    border: 1px solid #EB1D36;
-    border-radius: 3px;
+  color: #eb1d36;
+  background-color: #f5eddc;
+  width: 10%;
+  padding: 0.1rem;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  border: 1px solid #eb1d36;
+  border-radius: 3px;
 }
 
 #features {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 5rem 1rem;
-
-
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5rem 1rem;
 }
 
 #feature div {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 #feature header {
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: black;
-    padding-top: 1rem;
-    margin-bottom: 0rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: black;
+  padding-top: 1rem;
+  margin-bottom: 0rem;
 }
 
 #feature p {
-    font-size: 1.2rem;
-    color: rgb(41, 41, 41);
+  font-size: 1.2rem;
+  color: rgb(41, 41, 41);
 }
 
 #how_it_works {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #pricing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-
 #panel {
-    width: 800px;
-    height: 200px;
-    margin: 3rem 1rem;
-    display: flex;
-
-    justify-content: space-around;
-
+  width: 800px;
+  height: 200px;
+  margin: 3rem 1rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 #panel div {
-    max-width: 30%;
-    height: 6rem;
-    color: black;
+  width: 30%;
+  height: 6rem;
+  color: black;
 
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #003865;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #003865;
 }
 
 .title {
-    text-align: center;
-    font-size: 1.4rem;
-    margin: 5px;
-    padding: 0.5rem;
-    color: #003865;
-
-
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 5px;
+  padding: 0.5rem;
+  color: #003865;
 }
 
 .description {
-    text-align: center;
-    font-size: 1rem;
-    padding: 1rem;
-    padding-bottom: 1.5rem;
-    padding-top: 0;
-
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  padding-top: 0;
 }
 
 .price {
-    text-align: center;
-    font-size: 1.2rem;
-    background-color: #5CB8E4;
-    border-radius: 5px;
-    margin: 0.2rem 1rem;
-    padding: 1rem;
-
-
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #5cb8e4;
+  border-radius: 5px;
+  margin: 0.2rem 1rem;
+  padding: 1rem;
 }
 
 .price :hover {
-
-    background-color: #5CB8E4;
-    color: white
+  background-color: #5cb8e4;
+  color: white;
 }
 
 #footer {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #F5EDDC;
-    width: 100%;
-    color: black;
-    font-size: 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f5eddc;
+  width: 100%;
+  color: black;
+  font-size: 1.2rem;
 }
 
 #submit:hover {
-    background-color: #EB1D36;
-    color: #F5EDDC;
-    cursor: pointer;
-
+  background-color: #eb1d36;
+  color: #f5eddc;
+  cursor: pointer;
 }
 
-@media(max-width:800px) {
-    .nav-link {
-        display: none;
-    }
+@media (min-width: 300px) and (max-width: 600px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  #pricing {
+    width: 100%;
+  }
+  #panel {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  #panel div {
+    width: 90%;
+    align-self: center;
+    margin-bottom: 5px;
+  }
+  iframe {
+    width: 350px;
+    height: 300px;
+  }
+  #submit {
+    width: 30%;
+  }
+  #email {
+    width: 65%;
+  }
+  #features {
+    margin-top: 20px;
+    width: 90%;
+  }
+  form {
+    width: 90%;
+  }
+  #footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }
